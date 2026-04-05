@@ -1,0 +1,42 @@
+# --- Podstawowe śmieci ---
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Edytory (Ważne dla VS Code!) ---
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# --- Flutter & Dart ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+app.*.symbols
+app.*.map.json
+
+# --- Android ---
+/android/app/debug
+/android/app/profile
+/android/app/release
+local.properties
+*.keystore
+*.jks
+
+# --- Desktop (Linux, Mac, Windows) ---
+/linux/flutter/ephemeral/
+/macos/Flutter/ephemeral/
+/windows/flutter/ephemeral/
+/windows/flutter/generated/
+
+# --- Sekrety (Na przyszłość) ---
+.env
